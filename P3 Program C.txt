@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+    int a = 5;
+    int const b =7;
+    double const d= 4;
+    char e= 'A';
+    float f=5.8;
+    printf ("The value of a is %d\n",a);
+    printf("The value of b is %d\n",b);
+    printf("The value of d is %.2f\n",d);
+    printf("The value of e is %c\n",e);
+    printf("The value of f is %.1f\n",f);
+    return 0;
+    
+}
+
+
+Output : 
+       The value of a is 5
+The value of b is 7
+The value of d is 4.00
+The value of e is A
+The value of f is 5.8
